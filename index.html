@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VixyX AI — Criatividade, produtividade e inovação com IA</title>
-<meta name="description" content="VixyX AI é uma plataforma de inteligência artificial para conversas inteligentes, automação e assistência de código — segura e intuitiva.">
-<meta name="theme-color" content="#0b0b1a">
+<title>VixyX AI — Cria mais, faz mais com IA</title>
+<meta name="description" content="VixyX AI: conversas inteligentes, automação e assistência de código numa plataforma segura e intuitiva. Experimenta a demo grátis.">
+<meta name="theme-color" content="#07070f">
 <link rel="canonical" href="https://vixyx.ai/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="VixyX AI">
+<meta property="og:title" content="VixyX AI — Cria mais, faz mais com IA">
 <meta property="og:description" content="Conversas inteligentes, automação e assistência de código numa plataforma segura.">
 <meta property="og:url" content="https://vixyx.ai/">
 <meta property="og:image" content="https://vixyx.ai/og-image.svg">
@@ -16,50 +16,87 @@
 <meta name="twitter:image" content="https://vixyx.ai/og-image.svg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%237c5cff'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EV%3C/text%3E%3C/svg%3E">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VixyX AI","applicationCategory":"BusinessApplication","operatingSystem":"Web","description":"Plataforma de IA para conversas, automação e código.","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}
+{"@context":"https://schema.org","@graph":[
+{"@type":"SoftwareApplication","name":"VixyX AI","applicationCategory":"BusinessApplication","operatingSystem":"Web","description":"Plataforma de IA para conversas, automação e código.","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Os meus dados estão seguros?","acceptedAnswer":{"@type":"Answer","text":"Sim. A privacidade é um princípio de design: os teus dados são protegidos e não são vendidos."}},
+{"@type":"Question","name":"Posso cancelar quando quiser?","acceptedAnswer":{"@type":"Answer","text":"Sim, sem fidelização. Cancelas a qualquer momento."}},
+{"@type":"Question","name":"Que linguagens de programação são suportadas?","acceptedAnswer":{"@type":"Answer","text":"As mais comuns, como Python, JavaScript, TypeScript, C#, Java, Go e Rust."}}
+]}]}
 </script>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="orbs" aria-hidden="true"><i></i><i></i><i></i></div>
 <a class="skip" href="#main">Saltar para o conteúdo</a>
-<header class="nav">
+
+<header class="nav" id="nav">
   <a class="logo" href="#top" aria-label="VixyX AI"><span class="mark">V</span>VixyX AI</a>
-  <nav aria-label="Principal">
+  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  <nav id="menu" aria-label="Principal">
     <a href="#funcionalidades">Funcionalidades</a>
+    <a href="#como">Como funciona</a>
     <a href="#demo">Demo</a>
     <a href="#precos">Preços</a>
-    <a href="#contacto">Contacto</a>
+    <a href="#faq">FAQ</a>
+    <a class="btn small" href="#contacto">Começar</a>
   </nav>
-  <a class="btn small" href="#demo">Experimentar</a>
 </header>
 
 <main id="main">
 <section class="hero" id="top">
-  <p class="badge">Nova geração de IA</p>
-  <h1>Cria mais. Faz mais.<br><span class="grad">Com VixyX AI.</span></h1>
-  <p class="lead">Conversas inteligentes, automação poderosa e assistência de código — numa experiência segura e intuitiva.</p>
-  <div class="cta">
-    <a class="btn" href="#demo">Experimentar a demo</a>
-    <a class="btn ghost" href="#precos">Ver preços</a>
+  <p class="badge reveal"><span class="dot"></span> Nova geração de IA</p>
+  <h1 class="reveal">Pensa. Pergunta.<br><span class="grad">Cria com VixyX AI.</span></h1>
+  <p class="lead reveal">O assistente que conversa, automatiza e programa contigo — numa experiência rápida, segura e feita para ti.</p>
+  <div class="cta reveal">
+    <a class="btn lg" href="#demo">Experimentar grátis</a>
+    <a class="btn ghost lg" href="#como">Ver como funciona</a>
   </div>
+  <p class="note reveal">Sem cartão. Sem fidelização.</p>
+  <ul class="proof reveal" aria-label="Princípios">
+    <li><strong>Privacidade</strong><span>em primeiro lugar</span></li>
+    <li><strong>Multilíngue</strong><span>PT, EN e mais</span></li>
+    <li><strong>Rápido</strong><span>respostas em segundos</span></li>
+    <li><strong>Sem fricção</strong><span>começas em 1 minuto</span></li>
+  </ul>
 </section>
 
 <section id="funcionalidades" class="section">
-  <h2>Tudo o que precisas</h2>
-  <div class="grid">
-    <article class="card"><span class="ico">💬</span><h3>Conversas inteligentes</h3><p>Respostas claras e contextuais para qualquer tema.</p></article>
-    <article class="card"><span class="ico">⚙️</span><h3>Automação</h3><p>Liberta tempo automatizando tarefas repetitivas.</p></article>
-    <article class="card"><span class="ico">💻</span><h3>Assistência de código</h3><p>Escreve, explica e depura código mais depressa.</p></article>
-    <article class="card"><span class="ico">🔒</span><h3>Seguro por design</h3><p>Os teus dados protegidos com privacidade em primeiro lugar.</p></article>
+  <p class="eyebrow">Funcionalidades</p>
+  <h2>Tudo o que precisas, num só lugar</h2>
+  <div class="bento">
+    <article class="card big reveal"><span class="ico">💬</span><h3>Conversas inteligentes</h3><p>Respostas claras e contextuais para qualquer tema — da escrita criativa à análise de documentos.</p><div class="mini"><span>Resumir</span><span>Traduzir</span><span>Escrever</span><span>Explicar</span></div></article>
+    <article class="card reveal"><span class="ico">⚙️</span><h3>Automação</h3><p>Liberta tempo e automatiza tarefas repetitivas.</p></article>
+    <article class="card reveal"><span class="ico">🔒</span><h3>Seguro por design</h3><p>Privacidade e proteção de dados desde o primeiro dia.</p></article>
+    <article class="card wide reveal"><span class="ico">💻</span><h3>Assistência de código</h3><p>Escreve, explica e depura código mais depressa.</p><pre><code><span class="k">const</span> soma = (a, b) =&gt; a + b;
+<span class="c">// VixyX: "adiciona validação de tipos"</span></code></pre></article>
   </div>
 </section>
 
+<section id="como" class="section">
+  <p class="eyebrow">Como funciona</p>
+  <h2>Três passos. Zero complicação.</h2>
+  <ol class="steps">
+    <li class="reveal"><b>1</b><h3>Pergunta</h3><p>Escreve o que precisas, como falas.</p></li>
+    <li class="reveal"><b>2</b><h3>Refina</h3><p>Ajusta a resposta com mais contexto.</p></li>
+    <li class="reveal"><b>3</b><h3>Usa</h3><p>Copia, automatiza ou integra no teu fluxo.</p></li>
+  </ol>
+</section>
+
 <section id="demo" class="section">
+  <p class="eyebrow">Demo</p>
   <h2>Experimenta o chat</h2>
-  <p class="sub">Demonstração local simulada — sem enviar dados para nenhum servidor.</p>
+  <p class="sub">Demonstração simulada, local — não envia dados para nenhum servidor.</p>
   <div class="chat" role="region" aria-label="Demo de chat">
+    <div class="chat-head"><span class="mark sm">V</span><div><strong>VixyX AI</strong><small>Demo</small></div></div>
     <div class="log" id="log" aria-live="polite">
-      <div class="msg bot">Olá! Sou o VixyX AI. Pergunta-me sobre funcionalidades, preços ou código.</div>
+      <div class="msg bot">Olá! Sou o VixyX AI. Escolhe uma sugestão ou escreve a tua pergunta.</div>
+    </div>
+    <div class="chips" id="chips">
+      <button type="button">O que consegues fazer?</button>
+      <button type="button">Quanto custa?</button>
+      <button type="button">Ajudas com código?</button>
+      <button type="button">Os meus dados estão seguros?</button>
     </div>
     <form id="form" autocomplete="off">
       <label class="sr" for="q">Mensagem</label>
@@ -70,26 +107,46 @@
 </section>
 
 <section id="precos" class="section">
-  <h2>Preços simples</h2>
+  <p class="eyebrow">Preços</p>
+  <h2>Preços simples e transparentes</h2>
+  <div class="toggle" role="group" aria-label="Período de faturação">
+    <button type="button" class="on" data-p="m" aria-pressed="true">Mensal</button>
+    <button type="button" data-p="a" aria-pressed="false">Anual <em>−20%</em></button>
+  </div>
   <div class="grid three">
-    <article class="card"><h3>Free</h3><p class="price">0€<small>/mês</small></p><ul><li>Chat básico</li><li>50 mensagens/dia</li></ul><a class="btn ghost" href="#contacto">Começar</a></article>
-    <article class="card pop"><span class="badge">Popular</span><h3>Pro</h3><p class="price">19€<small>/mês</small></p><ul><li>Mensagens ilimitadas</li><li>Assistência de código</li><li>Automações</li></ul><a class="btn" href="#contacto">Escolher Pro</a></article>
-    <article class="card"><h3>Equipa</h3><p class="price">Sob consulta</p><ul><li>Tudo do Pro</li><li>SSO e controlo de acessos</li><li>Suporte prioritário</li></ul><a class="btn ghost" href="#contacto">Falar connosco</a></article>
+    <article class="card reveal"><h3>Free</h3><p class="price">0€<small>/mês</small></p><ul><li>Chat básico</li><li>50 mensagens/dia</li></ul><a class="btn ghost" href="#contacto">Começar</a></article>
+    <article class="card pop reveal"><span class="badge">Mais popular</span><h3>Pro</h3><p class="price"><span id="pro">19</span>€<small>/mês</small></p><ul><li>Mensagens ilimitadas</li><li>Assistência de código</li><li>Automações</li></ul><a class="btn" href="#contacto">Escolher Pro</a></article>
+    <article class="card reveal"><h3>Equipa</h3><p class="price">Sob consulta</p><ul><li>Tudo do Pro</li><li>SSO e controlo de acessos</li><li>Suporte prioritário</li></ul><a class="btn ghost" href="#contacto">Falar connosco</a></article>
   </div>
 </section>
 
-<section id="contacto" class="section">
-  <h2>Contacto</h2>
-  <form class="contact" id="contact" action="mailto:hello@vixyx.ai" method="post" enctype="text/plain">
-    <label for="n">Nome</label><input id="n" name="nome" required>
-    <label for="e">Email</label><input id="e" name="email" type="email" required>
-    <label for="m">Mensagem</label><textarea id="m" name="mensagem" rows="4" required></textarea>
-    <button class="btn" type="submit">Enviar</button>
-  </form>
+<section id="faq" class="section narrow">
+  <p class="eyebrow">FAQ</p>
+  <h2>Perguntas frequentes</h2>
+  <details class="reveal"><summary>Os meus dados estão seguros?</summary><p>Sim. A privacidade é um princípio de design: os teus dados são protegidos e não são vendidos.</p></details>
+  <details class="reveal"><summary>Posso cancelar quando quiser?</summary><p>Sim, sem fidelização. Cancelas a qualquer momento.</p></details>
+  <details class="reveal"><summary>Que linguagens de programação são suportadas?</summary><p>As mais comuns, como Python, JavaScript, TypeScript, C#, Java, Go e Rust.</p></details>
+  <details class="reveal"><summary>Preciso de cartão para experimentar?</summary><p>Não. O plano Free não exige cartão.</p></details>
+</section>
+
+<section id="contacto" class="section narrow">
+  <div class="final">
+    <h2>Pronto para criar mais?</h2>
+    <p class="sub">Deixa o teu contacto e falamos em breve.</p>
+    <form class="contact" id="contact" action="mailto:hello@vixyx.ai" method="post" enctype="text/plain">
+      <label for="n">Nome</label><input id="n" name="nome" autocomplete="name" required>
+      <label for="e">Email</label><input id="e" name="email" type="email" autocomplete="email" required>
+      <label for="m">Mensagem</label><textarea id="m" name="mensagem" rows="4" required></textarea>
+      <button class="btn lg" type="submit">Enviar</button>
+    </form>
+  </div>
 </section>
 </main>
 
-<footer><p>© <span id="y">2026</span> VixyX AI. Todos os direitos reservados.</p></footer>
+<footer>
+  <a class="logo" href="#top"><span class="mark sm">V</span>VixyX AI</a>
+  <p>© <span id="y">2026</span> VixyX AI. Todos os direitos reservados.</p>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@ VixyX AI is a next-generation artificial intelligence platform designed to empow
 
 ## Landing page
 
-Static, responsive landing page (HTML/CSS/JS, no build step) with SEO metadata, a simulated chat demo, pricing and a contact form.
+Static, responsive landing page (HTML/CSS/JS, no build step) with SEO metadata (OpenGraph, JSON-LD incl. FAQ), animated hero, bento features, how-it-works, a simulated chat demo (suggestion chips, typing indicator), monthly/annual pricing toggle, FAQ and a contact form. Includes a mobile menu, scroll-reveal animations and `prefers-reduced-motion` support.
 
 | File | Purpose |
 |------|---------|

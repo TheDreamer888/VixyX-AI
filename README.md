@@ -38,4 +38,4 @@ Replace `https://vixyx.ai/` (canonical, sitemap, robots) and `hello@vixyx.ai` (c
 
 `script.js` is a local mock. To use a real model, call it from a serverless function (never put API keys in client code) — e.g. Azure OpenAI, OpenAI, or GitHub Models — and have the page `fetch` that endpoint. Add rate limiting and input validation on the function.
 
-Note: `og-image.svg` works for most crawlers, but some social platforms require PNG/JPG; export a 1200x630 PNG for best results.
+Note: share previews use `og-image.png` (1200x630), rendered from `og-image.svg`.

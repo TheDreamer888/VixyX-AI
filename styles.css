@@ -113,6 +113,20 @@ details p{color:var(--mut);margin:0 0 16px}
 .contact{max-width:520px;margin:20px auto 0;display:flex;flex-direction:column;gap:8px}
 .contact label{color:var(--mut);font-size:.9rem}
 .contact .btn{margin-top:14px}
+.legal{padding-top:6vh}
+.legal h3{margin:2em 0 .4em;font-size:1.25rem;scroll-margin-top:90px}
+.legal p,.legal li{color:var(--mut)}
+.legal li{margin:.35em 0}
+.legal strong{color:var(--fg)}
+.legal a:not(.btn){color:var(--acc2);text-decoration:underline}
+.warn{border:1px solid #f59e0b66;background:#f59e0b14;border-radius:12px;padding:12px 16px}
+.toc{border:1px solid var(--line);background:#ffffff05;border-radius:14px;padding:16px 22px;margin:22px 0}
+.toc ol{margin:8px 0 0;columns:2;column-gap:30px}
+.toc a{color:var(--mut)}.toc a:hover{color:var(--fg)}
+.legal table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.95rem}
+.legal th,.legal td{border:1px solid var(--line);padding:10px 12px;text-align:left;color:var(--mut)}
+.legal th{color:var(--fg);background:#ffffff08}
+@media(max-width:640px){.toc ol{columns:1}}
 footer{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;color:var(--mut);padding:34px 5vw;border-top:1px solid var(--line)}
 footer p{margin:0;font-size:.9rem}
 

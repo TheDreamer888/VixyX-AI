@@ -24,6 +24,10 @@ Then open http://localhost:8080, or open `index.html` directly in a browser.
 
 Replace `https://vixyx.ai/` (canonical, sitemap, robots) and `hello@vixyx.ai` (contact form) with your real domain and email.
 
+### Deploy (GitHub Pages)
+
+`.github/workflows/pages.yml` publishes the site on every push to `main`. One-time setup: repository Settings > Pages > Source: **GitHub Actions**. Note the earlier caveat: GitHub Pages terms discourage online businesses; prefer Cloudflare Pages for commercial use.
+
 ### Hosting alternatives
 
 | Option | Free tier | Notes |
